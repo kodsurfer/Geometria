@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Geometria';
+  font-weight: 500;
+  position: relative;
+}
+/* body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/maket.svg');
+  width: 1441px;
+  height: 7862px;
+  opacity: 0.2;
+} */
+.author {
+  font-weight: 500;
+  font-size: 10px;
+}
+.header50 {
+  font-size: 50px;
+}
+.section-1 {
+  display: flex;
+  padding: 72px 62px;
+  gap: 8px;
+}
+.section-1 img {
+  width: 92px;
+}
+.section-1 .author {
+  margin-top: 4px;
+}
+.section-1 div:nth-of-type(2) {
+  display: flex;
+}
+.section-2 {
+  position: relative;
+}
+.section-2 .author {
+  margin: 346px 0 0 1097px;
+}
+.section-2 h1 {
+  font-size: 216px;
+  font-weight: 700;
+  margin: 9px 0 0 50px;
+}
+.section-2 img {
+  position: absolute;
+  top: -280px;
+  left: 758px;
+}
+.section-3 {
+  position: relative;
+}
+.section-3 > div {
+  display: flex;
+}
+.history {
+  padding: 90px 90px 0 90px;
+}
+.section-3 .big-text-info {
+  font-size: 160px;
+  text-align: right;
+  line-height: 95%;
+}
+.history img {
+  margin: 7px 12px 0 26px;
+}
+.history div h2 {
+  text-decoration: underline;
+}
+.history-paragrath {
+  margin-left: 4px;
+  font-size: 20px;
+  line-height: 134.5%;
+}
+h2 + .history-paragrath {
+  margin-top: 100px;
+}
+.history-paragrath b {
+  font-size: 26px;
+  font-weight: 700;
+}
+.stroenie {
+  padding: 52px 50px;
+}
+.stroenie img {
+  transform: rotate(180deg);
+}
+.nastroenie .big-text-info {
+  text-align: left;
+}
+.nastroenie div {
+  margin-left: 20px;
+}
+.nastroenie {
+  position: absolute;
+  top: 742px;
+  left: 794px;
+}
+.big-text-info + .history-paragrath {
+  margin: 46px 0 0 0;
+}
+.section-4 .recept {
+  width: 465px;
+  height: 240px;
+  background-color: black;
+  margin: 260px 0 0 425px;
+  padding: 42px 46px;
+}
+.recept h2 {
+  color: white;
+}
+.background-recept {
+  width: 1342px;
+  height: 655.97px;
+  margin: 0 0 0 56px;
+  background-image: url('../images/background-recept.svg');
+}
+.background-recept .author {
+  padding: 266px 0 0 910px;
+}
+.background-recept div:nth-of-type(2) {
+  display: flex;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 180px;
+}
+.recept-text {
+  width: 300px;
+  line-height: 110.5%;
+}
+.recept-text:nth-of-type(1) {
+  margin-left: 114px;
+}
+.recept-text:nth-of-type(2) {
+  margin-left: 124px;
+}
+.recept-text:nth-of-type(3) {
+  margin-left: 278px;
+  width: 81px;
+}
